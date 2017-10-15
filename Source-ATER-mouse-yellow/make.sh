@@ -1,4 +1,6 @@
 #!/bin/sh
+mkdir -p cursors
+
 echo left_ptr_watch.in cursors/left_ptr_watch
 xcursorgen left_ptr_watch.in cursors/left_ptr_watch
 
